@@ -1,7 +1,7 @@
 window.addEventListener("scroll", () => {
     const scroll = window.scrollY;
-    const height = document.body.scrollHeight - window.innerHeight;
-    const progress = scroll / height;
+    const maxScroll = document.body.scrollHeight - window.innerHeight;
+    const progress = scroll / maxScroll;
 
     if (progress < 0.33) {
         document.body.style.backgroundColor = "#f8f5f2";
