@@ -89,11 +89,15 @@ body {
 }
 .memory-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 24px;
     width: 100%;
     max-width: 1000px;
     margin-top: 50px;
+}
+
+.memory-card:first-child {
+    grid-column: 1 / -1;
 }
 
 .memory-card {
