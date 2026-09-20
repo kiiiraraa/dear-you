@@ -98,8 +98,10 @@ body {
 
 .memory-card {
     padding: 35px 30px;
-    border: 1px solid rgba(47, 42, 42, 0.15);
+    border: 1px solid rgba(47, 42, 42, 0.12);
+    border-radius: 6px;
     background: rgba(245, 205, 218, 0.75);
+    box-shadow: 4px 6px 0 rgba(47, 42, 42, 0.08);
     backdrop-filter: blur(8px);
     text-align: left;
 }
