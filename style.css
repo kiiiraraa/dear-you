@@ -87,3 +87,31 @@ body {
     line-height: 1.7;
     opacity: 0.75;
 }
+.memory-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 50px;
+}
+
+.memory-card {
+    padding: 35px 30px;
+    border: 1px solid rgba(47, 42, 42, 0.15);
+    background: rgba(245, 205, 218, 0.75);
+    backdrop-filter: blur(8px);
+    text-align: left;
+}
+
+.memory-card h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.memory-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    opacity: 0.7;
+}
