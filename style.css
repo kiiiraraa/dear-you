@@ -129,3 +129,9 @@ body {
     transform: translateY(-8px);
     box-shadow: 6px 12px 0 rgba(47, 42, 42, 0.1);
 }
+.memory-card video {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    border-radius: 4px;
+}
